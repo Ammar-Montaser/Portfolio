@@ -18,7 +18,10 @@ app.listen(PORT, () => {
 
 app.get("/advice", (req, res) => {
   // Website you wish to allow to connect
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://portfolio-zt3.pages.dev"
+  );
 
   // Request methods you wish to allow
   res.setHeader(
@@ -57,7 +60,10 @@ app.get("/advice", (req, res) => {
 
 app.post("/message", upload.none(), (req, res) => {
   // Website you wish to allow to connect
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:5173");
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://portfolio-zt3.pages.dev"
+  );
   // Request methods you wish to allow
   res.setHeader(
     "Access-Control-Allow-Methods",
