@@ -46,7 +46,7 @@ function ChatBubble(props: { msg: string }) {
           >
             Source: Compliments API
           </a>
-          <p className="text-gray-500 text-xs dark:text-gray-400 uppercase">
+          <p className="text-gray-500 text-xs hidden lg:visible dark:text-gray-400 uppercase">
             Fake loading just to show you my loading screen.
           </p>
           <div className="flex flex-row justify-end space-x-2 rtl:space-x-reverse">

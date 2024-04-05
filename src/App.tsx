@@ -11,7 +11,8 @@ import { appSliceActions } from "./Redux/appSlice";
 import { loadCompliment } from "./Redux/appSlice";
 import MainPage from "./Views/MainPage";
 import useTheme from "./Hooks/DarkMode";
-
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import ErrorScreen from "./Views/Screens/ErrorScreen/ErrorScreen";
 function App() {
   const advice = useAppSelector((state) => state.app.compliment);
   const screenLoading = useAppSelector((state) => state.app.loading);
@@ -30,25 +31,39 @@ function App() {
     // Check if the page has already loaded
   }, [dispatch]);
 
-  return (
-    <div className="layout duration-1000 ">
-      <Nav className="fixed" />
-      {screenLoading && (
-        <div>
-          <Preloader advice={advice} />
-          <Footer className="absolute bottom-0" />
-        </div>
-      )}
-      {!screenLoading ? (
-        <div>
-          {" "}
-          <div className="content">
-            <MainPage />
+  function Home() {
+    return (
+      <div>
+        {" "}
+        {screenLoading && (
+          <div>
+            <Preloader advice={advice} />
+            <Footer className="absolute bottom-0" />
           </div>
-          <Footer className="absolute " />
-        </div>
-      ) : null}
-    </div>
+        )}
+        {!screenLoading ? (
+          <div>
+            {" "}
+            <div className="content">
+              <MainPage />
+            </div>
+            <Footer className="absolute " />
+          </div>
+        ) : null}
+      </div>
+    );
+  }
+
+  return (
+    <Router>
+      <div className="layout duration-1000 ">
+        <Nav className="fixed" />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<ErrorScreen />} />
+        </Routes>
+      </div>{" "}
+    </Router>
   );
 }
 

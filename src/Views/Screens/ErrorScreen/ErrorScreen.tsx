@@ -5,7 +5,6 @@ import Nav from "../../Layout/NavBar/Nav";
 import { SparklesCore } from "../WebsiteIntroSection/Components/Sparkles";
 import { useAppSelector } from "../../../Hooks/ReduxHooks";
 import { useEffect } from "react";
-
 function ErrorScreen() {
   const mode = useAppSelector((state) => state.app.mode);
 
@@ -16,6 +15,7 @@ function ErrorScreen() {
     color = "#000000";
   }
   useEffect(() => {}, [color]);
+
   return (
     <div className="  flex flex-col   items-center justify-center overflow-hidden ">
       {" "}
@@ -34,8 +34,8 @@ function ErrorScreen() {
         <h1 className=" dark:text-primaryContentDark font-extrabold  text-primaryContent  text-center    text-3xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl  py-2  rounded-lg     ">
           WHERE ARE WE?
         </h1>
-        <h1 className=" dark:text-primaryContentDark font-extralight  text-primaryContent  text-center  text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl  py-2  rounded-lg     ">
-          Error 404 - You're Going To The Middle Of No Where.
+        <h1 className=" dark:text-primaryContentDark font-extralight uppercase  text-primaryContent  text-center  text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl  py-2  rounded-lg     ">
+          Error 404 - I Think We Are Going To The Middle Of No Where.
         </h1>
       </div>
       <div className="xl:w-2/12 lg:w-4/12 md:w-4/12 sm:w-4/12 w-6/12 absolute  overflow-hidden">
