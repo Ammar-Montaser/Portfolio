@@ -10,10 +10,13 @@ function Contact() {
 
     formData.append("Content-Type", "application/json");
 
-    const response = await fetch("http://localhost:3001/message", {
-      method: "POST",
-      body: formData,
-    });
+    const response = await fetch(
+      "https://portfolio-server-cztg.onrender.com/message",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
 
     const data = await response.json();
 

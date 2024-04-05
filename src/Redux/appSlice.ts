@@ -25,7 +25,7 @@ export const loadCompliment = createAsyncThunk(
   "appSlice/loadCompliment",
   async () => {
     return await axios
-      .get("http://localhost:3001/advice")
+      .get("https://portfolio-server-cztg.onrender.com/advice")
       .then((response): string => {
         return response.data;
       });
