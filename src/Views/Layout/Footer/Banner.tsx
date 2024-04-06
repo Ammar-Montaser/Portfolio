@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import Toggle from "./Components/DarkModeButton";
+import Toggle from "../../SharedComponents/DarkModeButton";
 import LanguageSelector from "./Components/LanguageSelector";
 import ColorPicker from "../../SharedComponents/ColorPicker";
 
@@ -53,7 +53,7 @@ export default function Banner() {
             height="20px"
           />
           <LanguageSelector />
-          <Toggle />
+          <Toggle className="ml-5" />
         </div>
       </div>
     </>

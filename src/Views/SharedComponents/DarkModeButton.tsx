@@ -1,8 +1,8 @@
-import { useAppDispatch } from "../../../../Hooks/ReduxHooks";
-import { appSliceActions } from "./../../../../Redux/appSlice";
+import { useAppDispatch } from "../../Hooks/ReduxHooks";
+import { appSliceActions } from "../../Redux/appSlice";
 import "./DarkModeButton.css";
 
-function Toggle() {
+function Toggle(props: { className?: string }) {
   const dispatch = useAppDispatch();
 
   const handleOnClick = () => {
@@ -18,7 +18,7 @@ function Toggle() {
   };
 
   return (
-    <div className={"ml-8  "}>
+    <div className={props.className}>
       <div onClick={handleOnClick} className="orb"></div>
 
       <label htmlFor="toggle" className="toggle--label">

@@ -35,7 +35,7 @@ function SocialMediaIcons(props: { className?: string; size?: string }) {
         </li>
         {/* Email */}
         <li className="hover:scale-110 hover:animate-pulse">
-          <a href="mailto:ammarmontaser@icloud.com">
+          <a href="mailto:me@ammarmontaser.com">
             <span>
               <svg
                 viewBox="0 0 8 6"
@@ -50,7 +50,7 @@ function SocialMediaIcons(props: { className?: string; size?: string }) {
         </li>
         {/* Github */}
         <li className="hover:scale-110 hover:animate-pulse">
-          <a href="https://github.com/3am3amy">
+          <a href="https://github.com/Ammar-Montaser">
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

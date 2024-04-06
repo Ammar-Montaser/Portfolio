@@ -4,6 +4,7 @@ import { CountUp } from "countup.js";
 import { useEffect } from "react";
 import { SparklesCore } from "./Components/Sparkles";
 import { useAppSelector } from "../../../Hooks/ReduxHooks";
+import Toggle from "../../SharedComponents/DarkModeButton";
 
 function WebsiteIntroSection() {
   const mode = useAppSelector((state) => state.app.mode);
@@ -48,19 +49,19 @@ function WebsiteIntroSection() {
       {/* MAIN SECTION */}
       <motion.div
         className=" absolute  left-0 flex flex-col     justify-center  h-screen w-full overflow-hidden "
-        initial={{ opacity: 0.5, y: 0 }}
-        whileInView={{ opacity: 1, y: 150 }}
+        initial={{ opacity: 0.3, y: -50 }}
+        whileInView={{ opacity: 1, y: 120 }}
         transition={{
           delay: 0.3,
           duration: 1,
           ease: "easeInOut",
         }}
       >
-        <h1 className=" dark:text-white text-black/100   bg-clip-text text-center xl:text-8xl lg:text-7xl text-7xl font-bold  ">
-          TRY ME
+        <h1 className=" dark:text-white text-black/100   bg-clip-text text-center xl:text-8xl lg:text-7xl text-7xl font-extrabold  ">
+          FIRST THING
         </h1>
-        <h1 className=" dark:text-white text-black/100   bg-clip-text text-center xl:text-6xl lg:text-4xl text-4xl font-bold  ">
-          PERSONALIZE YOUR EXPERIENCE
+        <h1 className=" dark:text-white text-black/100   bg-clip-text text-center xl:text-6xl lg:text-4xl text-4xl font-regular my-5  ">
+          CUSTOMIZE THE PORTFOLIO
         </h1>
 
         <h1
@@ -73,11 +74,12 @@ function WebsiteIntroSection() {
           <ColorPicker
             width="15rem"
             height="3rem"
-            className="bottom-[14rem]  absolute animate-bounce "
+            className=" my-5 animate-bounce "
             default={true}
-            hueClassName="absolute bottom-20"
+            hueClassName=""
           />
         </div>
+        <Toggle className=" mx-auto scale-150 my-10" />
       </motion.div>
       {/* WAVES */}
       <div className="  absolute top-0 flex z-10 w-full justify-center ">

@@ -139,9 +139,9 @@ function MainPage() {
         className=" dark:text-white text-black xl:text-[11rem] lg:text-[9rem] md:text-[6rem] sm:text-[4rem] text-[3rem] z-10"
         text="PROJECTS"
         number={3}
-        item1="PROFESSIONAL"
-        item2="HIGH QUALITY"
-        item3="INNOVATIVE"
+        item1="WEB & MOBILE"
+        item2="ARTIFICIAL INTELLIGENCE"
+        item3="FULL STACK"
       />{" "}
       <ProjectsParallax />
       <DidYouKnow />
