@@ -36,7 +36,7 @@ function SideMenu() {
             {hoverItem != "" ? (
               <div className="contents">
                 <motion.h1
-                  className="poppins-extrabold shadow-gray-700 shadow-lg rounded-lg text-black px-5 py-2 bg-BG	 absolute m-auto z-20 text-5xl md:text-8xl lg:text-8xl xl:text-9xl opacity-20"
+                  className="poppins-extrabold shadow-BG shadow-lg rounded-lg text-black px-5 py-2 bg-BG	 absolute m-auto z-20 text-5xl md:text-8xl lg:text-8xl xl:text-9xl opacity-20"
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 0.6, scale: 1 }}
                   exit={{ opacity: 0, scale: 0 }}

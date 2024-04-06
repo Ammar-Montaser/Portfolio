@@ -17,7 +17,7 @@ export default function Banner() {
         <div
           className={`   z-50 flex items-center   px-3 py-2.5 dark:text-primaryContentDark text-primaryContent   backdrop-blur-xl  sm:px-6  rounded-t-2xl`}
         >
-          <p className=" copyright mX-4 roboto-light ">
+          <p className=" copyright roboto-light ">
             © Ammar Montaser {new Date().getFullYear()}
           </p>
           <div
@@ -34,7 +34,9 @@ export default function Banner() {
             } sm:leading-6 text-primaryContent`}
           >
             <a href={linkTo} target="_blank" rel="noreferrer">
-              <strong className="font-semibold  ">{title}</strong>
+              <strong className="font-semibold  max-sm:hidden  ">
+                {title}
+              </strong>
             </a>
             <Circle />
 
@@ -51,9 +53,10 @@ export default function Banner() {
             className="absolute   right-5 bottom-[4.5rem]"
             width="20px"
             height="20px"
+            hueClassName=" "
           />
           <LanguageSelector />
-          <Toggle className="ml-5" />
+          <Toggle className="" />
         </div>
       </div>
     </>

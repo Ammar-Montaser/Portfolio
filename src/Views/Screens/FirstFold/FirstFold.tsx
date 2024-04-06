@@ -10,7 +10,7 @@ function FirstFold() {
     <div className="">
       <section className="  flex flex-col h-screen   dark:bg-neutral-950 bg-neutral-100 left-side overflow-hidden">
         <div className="relative  flex items-center justify-center ">
-          {/* <div className=" h-[25vw] w-[50vw]  bg-BG rounded-tl-full rounded-tr-full absolute top-[26rem] "></div>{" "} */}
+          {/* photo of me */}
           <motion.img
             className="absolute z-10 h-auto  max-sm:h-screen  max-sm:mt-5 md:w-5/6 sm:w-5/6  max-w-min    "
             src="https://iili.io/JNxOJ9V.webp"
@@ -21,9 +21,10 @@ function FirstFold() {
             transition={{ duration: 1.5 }}
           />
         </div>
+        {/* parallax headers behind my photo */}
         <div className="absolute flex flex-col  w-full h-[100vh]  items-center  justify-center bg-black-400/65 overflow-hidden ">
           <motion.h1
-            className=" max-sm:mt-32 max-sm:text-white max-sm:z-10 figtree-bold drop-shadow-2xl tracking-widest shadow-black font-bold  text-center leading-normal z-[3]  dark:text-white text-black text-nowrap  xl:text-[12rem] lg:text-[12rem] md:text-[10rem] sm:text-[8rem] text-7xl"
+            className=" max-sm:mt-32 max-sm:text-white max-sm:z-10 figtree-bold drop-shadow-2xl tracking-widest shadow-black font-extrabold  text-center leading-normal z-[3]  dark:text-white text-black text-nowrap  xl:text-[12rem] lg:text-[12rem] md:text-[10rem] sm:text-[8rem] text-7xl"
             initial={{ translateX: -1700 }}
             animate={{
               translateX: 0,
@@ -35,7 +36,7 @@ function FirstFold() {
           </motion.h1>
           <motion.h2
             style={{ y }}
-            className="name  z-10  drop-shadow-2xl tracking-widest shadow-black figtree-bold font-bold  text-center    text-color  xl:text-[12rem] lg:text-[12rem] md:text-[10rem] sm:text-[8rem] text-[5rem]"
+            className="name  z-10  drop-shadow-2xl tracking-widest shadow-black figtree-bold font-extrabold  text-center    text-color  xl:text-[12rem] lg:text-[12rem] md:text-[10rem] sm:text-[8rem] text-[5rem]"
             initial={{ translateX: 1500, opacity: 0 }}
             animate={{ translateX: 0, opacity: 1 }}
             transition={{ duration: 1 }}
@@ -43,10 +44,10 @@ function FirstFold() {
             &lt;AMMAR/&gt;
           </motion.h2>
           <div className="z-[10] sm:text-2xl text-2xl md:text-3xl lg:text-4xl sm:visible md:visible lg:visible xl:hidden text-center bg-BG py-2 px-3 rounded-md">
-            <h2 className="  font-medium  mx-auto text-white  ">
+            <h2 className="  font-bold  mx-auto text-white  ">
               FULL STACK SOFTWARE ENGINEER
             </h2>
-            <h2 className="  font-medium mt-5  mx-auto text-white ">
+            <h2 className="  font-bold mt-2  mx-auto text-white ">
               MOBILE & WEB DEVELOPER
             </h2>
           </div>

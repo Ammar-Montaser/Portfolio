@@ -19,7 +19,7 @@ function Preloader(props: { advice: string }) {
         <ChatBubble msg={props.advice} />
       )}
 
-      <div className="xl:w-2/6 lg:w-2/4 md:w-3/6 sm:w-4/6 w-5/6 absolute bottom-0">
+      <div className="xl:w-2/6 lg:w-2/4 md:w-3/6 sm:w-4/6 w-5/6 absolute bottom-12">
         <Lottie
           className=""
           loop={false}

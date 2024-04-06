@@ -28,7 +28,7 @@ function Contact() {
     }
   };
   return (
-    <div className="h-screen relative dark:bg-neutral-950 bg-neutral-100 ">
+    <div className="h-full relative dark:bg-neutral-950 bg-neutral-100 ">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-7xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
           LET'S GET IN TOUCH
@@ -97,10 +97,10 @@ function Contact() {
               {result}
             </span>
           </div>{" "}
+          <h2 className="dark:text-white text-black mx-auto text-lg italic font-light text-center">
+            "Aim for the moon. If you miss you'll land among the stars"
+          </h2>
         </form>{" "}
-        <h2 className="dark:text-white text-black mx-auto text-lg mt-5 italic font-light text-center">
-          "Aim for the moon. If you miss you'll land among the stars"
-        </h2>
       </div>{" "}
     </div>
   );

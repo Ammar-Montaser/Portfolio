@@ -36,11 +36,11 @@ function App() {
       <div>
         {" "}
         {screenLoading && (
-          <div>
+          <div className="h-screen relative overflow-hidden">
             {" "}
             <Nav className="fixed" />
             <Preloader advice={advice} />
-            <Footer className="absolute bottom-0" />
+            <Footer className="absolute bottom-0 " />
           </div>
         )}
         {!screenLoading ? (
@@ -58,12 +58,10 @@ function App() {
 
   return (
     <Router>
-      <div className="layout duration-1000 ">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<ErrorScreen />} />
-        </Routes>
-      </div>{" "}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<ErrorScreen />} />
+      </Routes>
     </Router>
   );
 }
