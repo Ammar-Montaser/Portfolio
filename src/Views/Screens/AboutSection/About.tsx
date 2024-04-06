@@ -81,8 +81,8 @@ function About() {
             <span className=" font-bold">
               diverse ways of thinking and flexibility
             </span>
-            . My father's career as a University Professor and my mother's as a
-            Chemist fostered{" "}
+            . In addition, my father's career as a University Professor and my
+            mother's as a Chemist fostered{" "}
             <span className=" font-bold">
               analytical and problem-solving skills&nbsp;
             </span>
@@ -90,23 +90,23 @@ function About() {
           </p>
           <p className="  text-neutral-600 xl:text-[1rem] lg:text-[1.2rem] md:text-lg sm:text-lg     dark:text-neutral-300 ">
             My passion for technology began at the age of five, sparking a
-            lifelong fascination. I pursued a Bachelor's degree in Computer
-            Science. My goal is to create innovative technological solutions
-            that transform people's lives for the better. Pioneers like Elon
-            Musk and Steve jobs <span className=" font-bold">inspire me</span>{" "}
-            with their world-changing innovations. I'm driven to develop
-            products with a similar positive impact. Through{" "}
+            lifelong fascination. Therefore, I pursued a Bachelor's degree in
+            Computer Science. My goal is to create innovative technological
+            solutions that transform people's lives for the better. Pioneers
+            like Elon Musk and Steve jobs{" "}
+            <span className=" font-bold">inspire me</span> with their
+            world-changing innovations. I'm driven to develop products with a
+            similar positive impact. Through{" "}
             <span className=" font-bold">continuous learning</span>, I
-            strengthen my diverse skillset. My experience ranges from software
+            strengthen my diverse skillset which ranges from software
             development to product strategy.{" "}
           </p>
           <p className="  text-neutral-600 xl:text-[1rem] lg:text-[1.2rem] md:text-lg sm:text-lg     dark:text-neutral-300 ">
             In addition to my technical skills, I have a{" "}
             <span className=" font-bold">passion for entrepreneurship</span> and
-            starting my own ventures. Currently, I am working on a startup
-            project. Through my startup endeavors, I am further developing my
-            skills in areas like product development, business modeling, and
-            team leadership. I enjoy the challenges of{" "}
+            starting my own ventures. Through my startup endeavors, I am further
+            developing my skills in areas like product development, business
+            modeling, and team leadership. I enjoy the challenges of{" "}
             <span className=" font-bold">bringing new ideas to life</span> and
             solving problems through an entrepreneurial lens. <br />
           </p>

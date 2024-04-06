@@ -9,39 +9,7 @@ import { CardStack } from "./components/CardStack";
 function DidYouKnow() {
   return (
     <div className=" h-[50vh] relative flex flex-col dark:bg-neutral-950 bg-neutral-100 ">
-      <h2 className="dark:text-white text-black      text-center text-5xl mb-12 ">
-        DID YOU KNOW?
-      </h2>
       <CardStack items={CARDS} />
-      {/* <OpacityCards
-          ImgClassName=" object-cover mx-auto  absolute h-full w-full inset-0 rounded-xl"
-          img={Certificate}
-          alt="1st Place Software Engineering Certificate from University of Abu Dhabi"
-          header="I Won 1st Place Software Engineering - University Of Abu Dhabi"
-          description="My graduation project and upcoming startup (The Hub) secured the 1st place at the 9th Undergraduate Virtual Research Competition (URC) held on May 26, 2022 by Abu Dhabi University. 
-I secured first place out of 320 accepted teams representing 55 major universities across the GCC and MENA region."
-        />{" "} */}
-      {/* <OpacityCards
-          ImgClassName=" object-cover mx-auto  absolute h-full w-full inset-0 rounded-xl"
-          img={Metaverse}
-          alt="A picture of me giving a lecture about Blockchain, crypto-currencies, and the Metaverse"
-          header="I Taught A Blockchain Lecture"
-          description="During my last year in university, I presented a lecture about Blockchain technology, Crypto-Currencies, and the Metaverse. The lecture was focused on explaining the technology, immutable ledger, attacks, use cases, and risks."
-        />{" "} */}
-      {/* <OpacityCards
-          ImgClassName=" object-cover mx-auto  absolute h-full w-full inset-0 rounded-xl"
-          img={YearBook}
-          alt="A picture from my yearbook when I predicted that I will intern at a tech giant"
-          header="I Can Predict The Future!"
-          description="In my high school yearbook, I answered the question (Where do see yourself in five years?). Back then I wanted to intern at a tech giant company, fast forward five years later and I got accepted @ Amazon. "
-        /> */}
-      {/* <OpacityCards
-          ImgClassName=" object-cover mx-auto  absolute h-full w-full inset-0 rounded-xl"
-          img={Military}
-          alt="A picture from my yearbook when I predicted that I will intern at a tech giant"
-          header="I Served As A Software Engineer During My Mandatory Mlitary Service"
-          description="In order to make the most out of my mandatory military service, I developed several Desktop Applications to automate several procedures and generate reports for the base I served in."
-        />{" "} */}
     </div>
   );
 }

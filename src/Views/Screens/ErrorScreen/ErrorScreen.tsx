@@ -29,7 +29,7 @@ function ErrorScreen() {
         particleColor={color}
       ></SparklesCore>{" "}
       <Nav className="left-0 top-0 absolute" />
-      <div className="absolute bottom-20">
+      <div className="absolute bottom-40 ">
         {" "}
         <h1 className=" dark:text-primaryContentDark font-extrabold  text-primaryContent  text-center    text-3xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl  py-2  rounded-lg     ">
           WHERE ARE WE?
@@ -38,7 +38,7 @@ function ErrorScreen() {
           Error 404 - I Think We Are Going To The Middle Of No Where.
         </h1>
       </div>
-      <div className="xl:w-2/12 lg:w-4/12 md:w-4/12 sm:w-4/12 w-6/12 absolute  overflow-hidden">
+      <div className="xl:w-2/12 lg:w-4/12 md:w-4/12 sm:w-4/12 w-6/12 absolute top-40  overflow-hidden">
         <Lottie
           className=""
           loop={true}

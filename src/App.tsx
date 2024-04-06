@@ -37,13 +37,15 @@ function App() {
         {" "}
         {screenLoading && (
           <div>
+            {" "}
+            <Nav className="fixed" />
             <Preloader advice={advice} />
             <Footer className="absolute bottom-0" />
           </div>
         )}
         {!screenLoading ? (
           <div>
-            {" "}
+            <Nav className="fixed" />
             <div className="content">
               <MainPage />
             </div>
@@ -57,7 +59,6 @@ function App() {
   return (
     <Router>
       <div className="layout duration-1000 ">
-        <Nav className="fixed" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<ErrorScreen />} />

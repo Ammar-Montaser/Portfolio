@@ -21,7 +21,7 @@ function WebsiteIntroSection() {
       enableScrollSpy: true,
       scrollSpyOnce: false,
       scrollSpyDelay: 100,
-      suffix: " colors available in light & dark mode",
+      suffix: " COLORS AVAILABLE IN BOTH LIGHT AND DARK MODE",
       duration: 3,
       useEasing: true,
     });
@@ -46,64 +46,39 @@ function WebsiteIntroSection() {
         particleColor={color}
       ></SparklesCore>{" "}
       {/* MAIN SECTION */}
-      <div className=" absolute  left-0 flex flex-col     justify-center  h-screen w-full overflow-hidden ">
-        <motion.h1
-          initial={{ opacity: 0.5, y: 10 }}
-          whileInView={{ opacity: 1, y: 80 }}
-          transition={{
-            delay: 0.3,
-            duration: 0.8,
-            ease: "easeInOut",
-          }}
-          className=" dark:text-white text-black/100   bg-clip-text text-center xl:text-8xl lg:text-7xl text-7xl font-bold  "
-        >
+      <motion.div
+        className=" absolute  left-0 flex flex-col     justify-center  h-screen w-full overflow-hidden "
+        initial={{ opacity: 0.5, y: 0 }}
+        whileInView={{ opacity: 1, y: 150 }}
+        transition={{
+          delay: 0.3,
+          duration: 1,
+          ease: "easeInOut",
+        }}
+      >
+        <h1 className=" dark:text-white text-black/100   bg-clip-text text-center xl:text-8xl lg:text-7xl text-7xl font-bold  ">
           TRY ME
-        </motion.h1>
-        <motion.h1
-          initial={{ opacity: 0.5, y: 30 }}
-          whileInView={{ opacity: 1, y: 100 }}
-          transition={{
-            delay: 0.3,
-            duration: 0.8,
-            ease: "easeInOut",
-          }}
-          className=" dark:text-white text-black/100   bg-clip-text text-center xl:text-6xl lg:text-4xl text-4xl font-bold  "
-        >
+        </h1>
+        <h1 className=" dark:text-white text-black/100   bg-clip-text text-center xl:text-6xl lg:text-4xl text-4xl font-bold  ">
           PERSONALIZE YOUR EXPERIENCE
-        </motion.h1>
+        </h1>
 
-        <motion.h1
+        <h1
           id="16777216"
-          initial={{ opacity: 0.5, y: 60 }}
-          whileInView={{ opacity: 1, y: 100 }}
-          transition={{
-            delay: 0.3,
-            duration: 0.8,
-            ease: "easeInOut",
-          }}
           className=" dark:text-white text-black/100  py-4 bg-clip-text text-center text-xl font-thin tracking-tight  md:text-3xl"
         >
           0
-        </motion.h1>
-        <motion.div
-          className=" "
-          initial={{ opacity: 0.5, y: 150 }}
-          whileInView={{ opacity: 1, y: 200 }}
-          transition={{
-            delay: 0.3,
-            duration: 0.8,
-            ease: "easeInOut",
-          }}
-        >
+        </h1>
+        <div>
           <ColorPicker
             width="15rem"
             height="3rem"
-            className="bottom-[6rem]  absolute animate-bounce "
+            className="bottom-[14rem]  absolute animate-bounce "
             default={true}
-            hueClassName=""
+            hueClassName="absolute bottom-20"
           />
-        </motion.div>
-      </div>
+        </div>
+      </motion.div>
       {/* WAVES */}
       <div className="  absolute top-0 flex z-10 w-full justify-center ">
         <svg

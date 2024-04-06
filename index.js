@@ -20,7 +20,7 @@ app.get("/advice", (req, res) => {
   // Website you wish to allow to connect
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://portfolio-zt3.pages.dev"
+    "https://ed03d5d2.portfolio-zt3.pages.dev/"
   );
 
   // Request methods you wish to allow
@@ -62,7 +62,7 @@ app.post("/message", upload.none(), (req, res) => {
   // Website you wish to allow to connect
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://portfolio-zt3.pages.dev"
+    "https://ed03d5d2.portfolio-zt3.pages.dev/"
   );
   // Request methods you wish to allow
   res.setHeader(
