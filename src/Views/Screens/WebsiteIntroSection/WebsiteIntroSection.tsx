@@ -36,7 +36,7 @@ function WebsiteIntroSection() {
     initCountUp();
   }, [color]);
   return (
-    <div className="relative  h-screen w-full  flex flex-col bg-neutral-100 dark:bg-neutral-950 overflow-hidden">
+    <div className="relative  h-screen w-full  flex flex-col bg-neutral-100 dark:bg-[#121212] overflow-hidden">
       <SparklesCore
         id="tsparticlesfullpage"
         background="transparent"

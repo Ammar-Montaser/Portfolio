@@ -8,7 +8,7 @@ function FirstFold() {
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "70%"]);
   return (
     <div className="">
-      <section className="  flex flex-col h-screen   dark:bg-neutral-950 bg-neutral-100 left-side overflow-hidden">
+      <section className="  flex flex-col h-screen   dark:bg-[#121212] bg-neutral-100 left-side overflow-hidden">
         <div className="relative  flex items-center justify-center ">
           {/* photo of me */}
           <motion.img

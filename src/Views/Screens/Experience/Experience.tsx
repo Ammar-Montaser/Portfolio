@@ -8,7 +8,7 @@ function Experience() {
   const x = useTransform(scrollYProgress, [0, 1], ["60%", "-60%"]);
   return (
     <div ref={targetRef} className=" h-[500vh] relative">
-      <div className="h-screen sticky top-0  dark:bg-neutral-950 bg-neutral-100 flex justify-center items-center overflow-hidden">
+      <div className="h-screen sticky top-0  dark:bg-[#121212] bg-neutral-100 flex justify-center items-center overflow-hidden">
         <div className="flex flex-col items-center justify-evenly h-3/4 w-screen absolute  ">
           <p className="text-black dark:text-neutral-200 w-10/12 text-center text-6xl font-bold ">
             My Next Milestone

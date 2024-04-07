@@ -28,7 +28,7 @@ function Contact() {
     }
   };
   return (
-    <div className="h-full relative dark:bg-neutral-950 bg-neutral-100 ">
+    <div className="h-full relative dark:bg-[#121212] bg-neutral-100 ">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-7xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
           LET'S GET IN TOUCH

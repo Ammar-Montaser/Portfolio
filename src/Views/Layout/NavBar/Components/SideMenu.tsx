@@ -23,7 +23,7 @@ function SideMenu() {
     <AnimatePresence>
       {open && (
         <motion.div
-          className="flex flex-col items-center justify-center h-full w-full fixed z-[11] top-0 dark:bg-neutral-950 bg-gray-200  "
+          className="flex flex-col items-center justify-center h-full w-full fixed z-[11] top-0 dark:bg-[#121212] bg-gray-200  "
           initial={{ x: -100, opacity: 0, scale: 0 }}
           animate={{ x: 0, opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0 }}

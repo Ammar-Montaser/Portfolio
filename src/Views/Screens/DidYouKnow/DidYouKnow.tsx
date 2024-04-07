@@ -8,7 +8,7 @@ import { CardStack } from "./components/CardStack";
 // import Military from "../../../assets/Military.jpeg";
 function DidYouKnow() {
   return (
-    <div className=" h-[50vh] relative flex flex-col dark:bg-neutral-950 bg-neutral-100 ">
+    <div className=" h-[50vh] relative flex flex-col dark:bg-[#121212] bg-neutral-100 ">
       <CardStack items={CARDS} />
     </div>
   );

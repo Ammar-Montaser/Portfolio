@@ -13,7 +13,7 @@ function Divider(props: {
   icon2: ReactElement<ReactSVGElement>;
 }) {
   return (
-    <div className="flex flex-row justify-center items-center  dark:bg-neutral-950 bg-neutral-100 overflow-hidden relative">
+    <div className="flex flex-row justify-center items-center  dark:bg-[#121212] bg-neutral-100 overflow-hidden relative">
       {props.icon}
       <div
         id={props.id}

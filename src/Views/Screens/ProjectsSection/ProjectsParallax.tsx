@@ -30,7 +30,7 @@ export const ProjectsParallax = () => {
   return (
     <div
       ref={ref}
-      className="h-fit overflow-hidden  dark:bg-neutral-950 bg-neutral-100 antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-fit overflow-hidden  dark:bg-[#121212] bg-neutral-100 antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
 
