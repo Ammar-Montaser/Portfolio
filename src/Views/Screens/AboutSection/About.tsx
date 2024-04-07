@@ -9,7 +9,7 @@ function About() {
   return (
     <div className="relative   flex flex-col  justify-center dark:bg-neutral-950 bg-white/70/40">
       <BentoGrid className="  max-w-8xl xl:px-12 lg:px-10 md:px-10 px-3  ">
-        <div className="row-span-1  rounded-3xl hover:drop-shadow-glow   hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  justify-between bg-gray-100  border-2 border-BG  flex flex-col ">
+        <div className="row-span-1  rounded-3xl hover:drop-shadow-glow   hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  justify-between bg-gray-200  border-2 border-BG  flex flex-col ">
           <h2 className="font-bold text-2xl   dark:text-white text-black">
             Summary
           </h2>
@@ -23,12 +23,15 @@ function About() {
 
           <div className="flex flex-row justify-between">
             <SocialMediaIcons className="" size="size-6" />
-            <button className=" roboto-bold dark:bg-black bg-BG rounded-2xl dark:text-white text-black w-50 px-4 py-2">
+            <a
+              href="https://drive.google.com/uc?export=download&id=1PQ1wyYRzFq3cTylxBsnDOoZYMCwKMjW_"
+              className=" roboto-bold dark:bg-black bg-BG rounded-2xl dark:text-white text-black w-50 px-4 py-2"
+            >
               Download Resume
-            </button>
+            </a>
           </div>
         </div>
-        <div className="row-span-2 rounded-3xl  hover:drop-shadow-glow  hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-100  border-2 border-BG  ">
+        <div className="row-span-2 rounded-3xl  hover:drop-shadow-glow  hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-200  border-2 border-BG  ">
           <Carousel
             pauseOnHover
             leftControl={
@@ -39,38 +42,28 @@ function About() {
             }
           >
             <img
-              src="https://iili.io/JNhmF9e.webp"
+              src="https://iili.io/JOg1nvn.webp"
               alt="Random picture of me in university"
               className="object-cover h-full w-full"
             />
-
             <img
-              src="https://iili.io/JNhZ8uf.webp"
-              alt="Picture of my favorite cafe (Where I finish most of my work and drink coffee)"
-            />
-            <img
-              src="https://iili.io/JNj3hMu.webp"
-              alt="Picture of me"
+              src="https://iili.io/JOgkVOQ.webp"
+              alt="My Amazon Swag"
               className="object-cover h-full w-full"
             />
             <img
-              src="https://iili.io/JNhmNV4.webp"
-              alt="A picture from my pyramids adventure"
-              className="object-cover object-right h-full w-full"
-            />
-            <img
-              src="https://iili.io/JNhDzWQ.webp"
-              alt="Photo of me from Prime Day Celebrations"
+              src="https://iili.io/JOge1up.webp"
+              alt="Photo of with my Amazon team"
               className="object-cover  h-full w-full"
             />
             <img
-              src="https://iili.io/JNhy0vt.webp"
-              alt="Photo I took of the sunset"
-              className="object-cover object-bottom h-full w-full"
+              src="https://iili.io/JOgMFCx.webp"
+              alt="Picture of me"
+              className="object-cover  h-full w-full"
             />
           </Carousel>
         </div>
-        <div className="row-span-3  sm:row-span-3  rounded-3xl  hover:drop-shadow-glow  hover:shadow-xl transition duration-1000   p-4  dark:bg-neutral-900 flex flex-col justify-around  bg-gray-100 border-2 border-BG   ">
+        <div className="row-span-3  sm:row-span-3  rounded-3xl  hover:drop-shadow-glow  hover:shadow-xl transition duration-1000   p-4  dark:bg-neutral-900 flex flex-col justify-around  bg-gray-200 border-2 border-BG   ">
           {" "}
           <h2 className="font-bold text-2xl  dark:text-white text-black">
             My Background
@@ -127,7 +120,7 @@ function About() {
             )}
           </div>
         </div>
-        <div className="row-span-2 rounded-3xl hover:drop-shadow-glow  hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-100  border-2 border-BG  flex flex-col ">
+        <div className="row-span-2 rounded-3xl hover:drop-shadow-glow  hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-200  border-2 border-BG  flex flex-col ">
           <h2 className="font-bold text-2xl mb-2  dark:text-white text-black">
             Favourite Jams
           </h2>
@@ -181,7 +174,7 @@ function About() {
             ></iframe>
           </div>
         </div>{" "}
-        <div className=" min-h-full justify-around xl:row-span-1 lg:col-span-1 xl:col-span-1 rounded-3xl  hover:drop-shadow-glow   hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-100 border-2 border-BG  flex flex-col ">
+        <div className=" min-h-full justify-around xl:row-span-1 lg:col-span-1 xl:col-span-1 rounded-3xl  hover:drop-shadow-glow   hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-200 border-2 border-BG  flex flex-col ">
           <h2 className="font-bold text-2xl   dark:text-white text-black">
             Education
           </h2>
@@ -220,7 +213,7 @@ function About() {
             </h3>
           </div>
         </div>
-        <div className="row-span-1 lg:col-span-1 xl:col-span-full rounded-3xl hover:drop-shadow-glow  hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-100  border-2 border-BG  flex flex-col ">
+        <div className="row-span-1 lg:col-span-1 xl:col-span-full rounded-3xl hover:drop-shadow-glow  hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-200  border-2 border-BG  flex flex-col ">
           {" "}
           <h2 className="font-bold text-2xl   dark:text-white text-black">
             Tool Stack

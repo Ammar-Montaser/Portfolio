@@ -56,7 +56,7 @@ export default function Banner() {
             hueClassName=" "
           />
           <LanguageSelector />
-          <Toggle className="" />
+          <Toggle className="ml-5" />
         </div>
       </div>
     </>
