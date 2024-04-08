@@ -10,9 +10,10 @@ function Preloader(props: { advice: string }) {
 
   return (
     <div className="preloader flex flex-col justify-center h-50 items-center justify-items-center  ">
-      <h1 className=" dark:text-primaryContentDark font-extrabold  text-primaryContent    text-3xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl  py-2  rounded-lg     ">
+      <h1 className="hidden">Ammar Montaser's Portfolio</h1>
+      <h2 className=" dark:text-primaryContentDark font-extrabold  text-primaryContent    text-3xl sm:text-5xl md:text-5xl lg:text-7xl xl:text-8xl  py-2  rounded-lg     ">
         LOADING MY PORTFOLIO
-      </h1>
+      </h2>
       {error.length ? (
         <ChatBubble msg={error} />
       ) : (
