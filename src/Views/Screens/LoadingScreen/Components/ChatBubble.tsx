@@ -35,9 +35,9 @@ function ChatBubble(props: { msg: string }) {
           </span>
         </div>
 
-        <h1 className=" text-2xl sm:text-3xl md:text-3xl lg:text-3xl  xl:text-3xl font-normal py-2.5 text-gray-900 dark:text-white">
+        <h2 className=" text-2xl sm:text-3xl md:text-3xl lg:text-3xl  xl:text-3xl font-normal py-2.5 text-gray-900 dark:text-white">
           {props.msg}
-        </h1>
+        </h2>
 
         <div className="flex flex-row justify-between space-x-2 rtl:space-x-reverse">
           <a
