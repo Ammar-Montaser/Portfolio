@@ -127,11 +127,7 @@ function About() {
           <div className="  overflow-hidden">
             {" "}
             <iframe
-              src={
-                mode == "light"
-                  ? "https://open.spotify.com/embed/track/6mFkJmJqdDVQ1REhVfGgd1?utm_source=generator&theme=1"
-                  : "https://open.spotify.com/embed/track/6mFkJmJqdDVQ1REhVfGgd1?utm_source=generator&theme=0"
-              }
+              src="https://open.spotify.com/embed/track/6mFkJmJqdDVQ1REhVfGgd1?utm_source=generator&theme=1"
               width="100%"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
@@ -139,11 +135,7 @@ function About() {
           </div>
           <div className="  overflow-hidden">
             <iframe
-              src={
-                mode == "light"
-                  ? "https://open.spotify.com/embed/track/40jxatV29fk82SAziDsPqN?utm_source=generator&theme=1"
-                  : "https://open.spotify.com/embed/track/40jxatV29fk82SAziDsPqN?utm_source=generator&theme=0"
-              }
+              src="https://open.spotify.com/embed/track/40jxatV29fk82SAziDsPqN?utm_source=generator&theme=1"
               width="100%"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
@@ -151,11 +143,7 @@ function About() {
           </div>
           <div className="  overflow-hidden">
             <iframe
-              src={
-                mode == "light"
-                  ? "https://open.spotify.com/embed/track/2Rd4eJ4KwXQQn2sMSToyUM?utm_source=generator&theme=1"
-                  : "https://open.spotify.com/embed/track/2Rd4eJ4KwXQQn2sMSToyUM?utm_source=generator&theme=0"
-              }
+              src="https://open.spotify.com/embed/track/2Rd4eJ4KwXQQn2sMSToyUM?utm_source=generator&theme=1"
               width="100%"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
@@ -163,11 +151,7 @@ function About() {
           </div>
           <div className="  overflow-hidden">
             <iframe
-              src={
-                mode == "light"
-                  ? "https://open.spotify.com/embed/track/5nujrmhLynf4yMoMtj8AQF?utm_source=generator&theme=1"
-                  : "https://open.spotify.com/embed/track/5nujrmhLynf4yMoMtj8AQF?utm_source=generator&theme=0"
-              }
+              src="https://open.spotify.com/embed/track/5nujrmhLynf4yMoMtj8AQF?utm_source=generator&theme=1"
               width="100%"
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"

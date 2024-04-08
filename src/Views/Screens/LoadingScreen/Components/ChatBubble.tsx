@@ -1,8 +1,5 @@
 import "./ChatBubble.css";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-// @ts-expect-error TS ERROR
-import useSound from "use-sound";
-import bell from "../../../../assets/bell.mp3";
 
 function formatAMPM(date: Date) {
   let hours = date.getHours();
@@ -16,18 +13,13 @@ function formatAMPM(date: Date) {
 }
 
 function ChatBubble(props: { msg: string }) {
-  const [playSound] = useSound(bell);
-
   return (
-    <div
-      className="  xl:w-7/12 lg:w-8/12 md:w-8/12  w-11/12   border-gray-200 shadow-black drop-shadow-xl "
-      onClick={playSound}
-    >
+    <div className="  xl:w-7/12 lg:w-8/12 md:w-8/12  w-11/12   border-gray-200 shadow-black drop-shadow-xl ">
       <div className="flex flex-col  leading-1.5 p-4 bg-gray-100/90  rounded-xl dark:bg-gray-700/90">
         <div className="flex items-center space-x-2 rtl:space-x-reverse last:self-end">
           <img
             className="w-14 h-14 rounded-full"
-            src="https://iili.io/JNxOgx1.webp"
+            src="https://iili.io/JkG05Wx.webp"
             alt="My Cat Mango"
           />
           <span className=" font-semibold text-gray-900 dark:text-white text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl">
