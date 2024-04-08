@@ -9,8 +9,6 @@ export default defineConfig({
     compression(),
     compression({
       algorithm: "brotliCompress",
-      exclude: [/\.(br)$/, /\.(gz)$/],
-      deleteOriginalAssets: true,
     }),
   ],
 });
