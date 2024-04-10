@@ -52,7 +52,7 @@ function Nav(props: { className?: string }): ReactNode {
             whileTap={{ scale: 0.85, rotate: 15 }}
             initial={{ scale: 1 }}
             className={
-              "fa-solid fa-bars text-2xl text-primaryContent dark:text-primaryContentDark hover:bg-primary bg-BG py-2 px-3 rounded-md shadow-md"
+              "fa-solid fa-bars text-2xl text-primaryContent dark:text-primaryContentDark  bg-BG py-2 px-3 rounded-md shadow-md"
             }
           ></motion.i>
         </button>

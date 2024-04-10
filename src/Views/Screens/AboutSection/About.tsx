@@ -35,10 +35,10 @@ function About() {
           <Carousel
             pauseOnHover
             leftControl={
-              <i className="fa-solid fa-chevron-left text-3xl dark:text-white text-black"></i>
+              <i className="fa-solid fa-chevron-left text-3xl  text-color"></i>
             }
             rightControl={
-              <i className="fa-solid fa-chevron-right text-3xl dark:text-white text-black"></i>
+              <i className="fa-solid fa-chevron-right text-3xl  text-color"></i>
             }
           >
             <img
@@ -200,7 +200,7 @@ function About() {
         <div className="row-span-1 lg:col-span-1 xl:col-span-full rounded-3xl hover:drop-shadow-glow  hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-200  border-2 border-BG  flex flex-col ">
           {" "}
           <h2 className="font-bold text-2xl   dark:text-white text-black">
-            Tool Stack
+            Main Tool Stack
           </h2>
           <div className="flex flex-row  flex-grow flex-wrap justify-center items-center space-x-2">
             <ToolStackIcons className="icon-[devicon--flutter] xl:xl:text-5xl text-3xl " />
