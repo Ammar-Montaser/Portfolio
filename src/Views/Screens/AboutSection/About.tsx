@@ -24,7 +24,7 @@ function About() {
           <div className="flex flex-row justify-between">
             <SocialMediaIcons className="" size="size-6" />
             <a
-              href="https://drive.google.com/uc?export=download&id=1PQ1wyYRzFq3cTylxBsnDOoZYMCwKMjW_"
+              href="https://drive.google.com/uc?export=download&id=11FDWtO8qGjH4CN8dwPPd76XKpz_5Mn7p"
               className=" roboto-bold dark:bg-black bg-BG rounded-2xl dark:text-white text-black w-50 px-4 py-2"
             >
               Download Resume
