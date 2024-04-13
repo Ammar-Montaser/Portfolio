@@ -50,7 +50,7 @@ function WebsiteIntroSection() {
       <motion.div
         className=" absolute  left-0 flex flex-col     justify-center  h-screen w-full overflow-hidden "
         initial={{ opacity: 0.3, y: -50 }}
-        whileInView={{ opacity: 1, y: 120 }}
+        whileInView={{ opacity: 1, y: 130 }}
         transition={{
           delay: 0.3,
           duration: 1,
@@ -62,6 +62,10 @@ function WebsiteIntroSection() {
         </h1>
         <h1 className=" dark:text-white text-black/100   bg-clip-text text-center xl:text-6xl lg:text-4xl text-4xl font-regular my-5  ">
           CUSTOMIZE THE PORTFOLIO
+        </h1>
+        <h1 className=" dark:text-white text-black/100   bg-clip-text text-center xl:text-4xl lg:text-3xl text-2xl font-regular my-5  ">
+          Disclaimer: This website does not use a template, view source code on
+          Github!
         </h1>
 
         <h1

@@ -115,6 +115,11 @@ export const ProductCard = ({
 
 const products = [
   {
+    title: "Kadane's Algorithm Visualizer",
+    link: "https://ammar-montaser.github.io/Kadane-s-Algorithm-Visualizer/",
+    thumbnail: "https://iili.io/JvMHQkl.png",
+  },
+  {
     title: "Simple Stocks Website UI Design",
     link: "https://fanciful-pudding-2a7a2d.netlify.app/",
     thumbnail: "https://iili.io/JNj7BYN.webp",
