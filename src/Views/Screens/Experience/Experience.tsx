@@ -5,7 +5,7 @@ import { motion, useTransform, useScroll } from "framer-motion";
 function Experience() {
   const targetRef = useRef<HTMLDivElement | null>(null);
   const { scrollYProgress } = useScroll({ target: targetRef });
-  const x = useTransform(scrollYProgress, [0, 1], ["60%", "-60%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["70%", "-70%"]);
   return (
     <div ref={targetRef} className=" h-[500vh] relative">
       <div className="h-screen sticky top-0  dark:bg-[#121212] bg-neutral-100 flex justify-center items-center overflow-hidden">
@@ -20,7 +20,7 @@ function Experience() {
           <PreviousCompanies />
         </div>
         <motion.div className="flex" style={{ x: x }}>
-          <div className="h-screen w-screen flex-1  bg-[#008BFF] flex flex-col pt-20 sm:pt-0 justify-center ">
+          {/* <div className="h-screen w-screen flex-1  bg-[#008BFF] flex flex-col pt-20 sm:pt-0 justify-center ">
             <div className="flex flex-col lg:flex-row  ">
               <div className="flex flex-col  h-fit lg:w-6/12 justify-center items-start px-5 md:px-24">
                 <h2 className="text-white font-extrabold text-3xl lg:text-6xl mb-2">
@@ -93,7 +93,7 @@ function Experience() {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="h-screen w-screen flex-1  bg-[#131313] flex flex-col pt-20 sm:pt-0 justify-center">
             {" "}
             <div className="flex flex-col lg:flex-row  ">

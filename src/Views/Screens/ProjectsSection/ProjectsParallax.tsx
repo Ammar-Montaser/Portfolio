@@ -115,14 +115,26 @@ export const ProductCard = ({
 
 const products = [
   {
-    title: "Kadane's Algorithm Visualizer",
-    link: "https://ammar-montaser.github.io/Kadane-s-Algorithm-Visualizer/",
-    thumbnail: "https://iili.io/JvMHQkl.png",
+    title: "DAPE (Simple Crypto NFT Community Game)",
+    link: "https://youtu.be/sINNpwfH4kc",
+    thumbnail: "https://iili.io/JNjAJhG.webp",
   },
   {
-    title: "Simple Stocks Website UI Design",
-    link: "https://fanciful-pudding-2a7a2d.netlify.app/",
-    thumbnail: "https://iili.io/JNj7BYN.webp",
+    title: "Spiral (First 3D Game)",
+    link: "https://youtu.be/vZRJ5T3iBMc",
+    thumbnail: "https://iili.io/JNjuhmu.webp",
+  },
+  {
+    title: "Arminda (First 2D Game)",
+    link: "https://youtu.be/_riAfvaGZSY?t=99",
+    thumbnail: "https://iili.io/JNj5Czu.webp",
+  },
+  {
+    title:
+      "Bloggy (Flutter Blog App) [Clean Architecture, Supabase, Get It, FP Dart, and Bloc]",
+    link: "https://github.com/Ammar-Montaser/News-App-Flutter?tab=readme-ov-file",
+    thumbnail:
+      "https://i.postimg.cc/G3gbR4NS/Screenshot-2024-06-13-at-8-23-33-PM.webp",
   },
   {
     title: "Calorie Intake Calculator (FlutterFlow)",
@@ -130,15 +142,20 @@ const products = [
     thumbnail: "https://iili.io/JNj5rk7.webp",
   },
   {
-    title: "Arminda (First 2D Game)",
-    link: "https://youtu.be/_riAfvaGZSY?t=99",
-    thumbnail: "https://iili.io/JNj5Czu.webp",
+    title: "Business Card Website [UI/UX + Tailwind]",
+    link: "https://ammar-business-card.netlify.app/",
+    thumbnail:
+      "  https://i.postimg.cc/1zrJNwrP/Screenshot-2024-06-13-at-7-56-39-PM.webp",
   },
-
   {
     title: "Project Vault (RFID Smart Locker Automation App)",
     link: "https://youtube.com/shorts/2If3yzoiN1Q",
     thumbnail: "https://iili.io/JNjRtRt.webp",
+  },
+  {
+    title: "Kadane's Algorithm Visualizer",
+    link: "https://ammar-montaser.github.io/Kadane-s-Algorithm-Visualizer/",
+    thumbnail: "https://iili.io/JvMHQkl.png",
   },
   {
     title: "Project Vault (RFID Smart Locker Automation Circuit)",
@@ -161,22 +178,13 @@ const products = [
     link: "https://sprightly-sherbet-85510a.netlify.app",
     thumbnail: "https://iili.io/JNjACv9.webp",
   },
-  {
-    title: "DAPE (Simple Crypto NFT Community Game)",
-    link: "https://youtu.be/sINNpwfH4kc",
-    thumbnail: "https://iili.io/JNjAJhG.webp",
-  },
+
   {
     title: "Solider Shooting Range Management Application",
     link: "https://youtu.be/-UDzBKMahzM",
     thumbnail: "https://iili.io/JNjuQBR.webp",
   },
 
-  {
-    title: "Spiral (First 3D Game)",
-    link: "https://youtu.be/vZRJ5T3iBMc",
-    thumbnail: "https://iili.io/JNjuhmu.webp",
-  },
   {
     title: "Cinema App UI Design",
     link: "https://dribbble.com/shots/23933554-Cinema-Application-UI-Design?utm_source=Clipboard_Shot&utm_campaign=3am3amy&utm_content=Cinema%20Application%20UI%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=3am3amy&utm_content=Cinema%20Application%20UI%20Design&utm_medium=Social_Share",

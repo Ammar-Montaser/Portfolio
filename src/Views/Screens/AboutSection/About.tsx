@@ -42,24 +42,24 @@ function About() {
             }
           >
             <img
-              src="https://iili.io/JOg1nvn.webp"
-              alt="Random picture of me in university"
+              src="https://i.postimg.cc/NMJFZpmd/IMG-7448.webp"
+              alt="A random pic of me"
+              className="object-cover h-full w-full"
+            />
+            <img
+              src="https://i.postimg.cc/zvQLH0fy/277598-F4-0-EBA-4-A92-9941-2410-EDB81969.webp"
+              alt="A picture of me in my favorite coffee shop"
+              className="object-cover h-full w-full"
+            />
+            <img
+              src="https://i.postimg.cc/qRMgm9ht/IMG-3779.webp"
+              alt="A picture of me attending Startups Without Borders Summit"
               className="object-cover h-full w-full"
             />
             <img
               src="https://iili.io/JOgkVOQ.webp"
               alt="My Amazon Swag"
               className="object-cover h-full w-full"
-            />
-            <img
-              src="https://iili.io/JOge1up.webp"
-              alt="Photo of with my Amazon team"
-              className="object-cover  h-full w-full"
-            />
-            <img
-              src="https://iili.io/JOgMFCx.webp"
-              alt="Picture of me"
-              className="object-cover  h-full w-full"
             />
           </Carousel>
         </div>
