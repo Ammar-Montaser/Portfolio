@@ -12,7 +12,7 @@
     Note This Project Is Still W.I.P
     <br/>
     <br/>
-    <a href="#"><strong>View Demo »</strong></a>
+    <a href="https://ammarmontaser.com"><strong>View Site »</strong></a>
     <br/>
   </p>
 </p>
