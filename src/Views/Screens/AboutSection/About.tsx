@@ -31,7 +31,7 @@ function About() {
             </a>
           </div>
         </div>
-        <div className="row-span-2 rounded-3xl  hover:drop-shadow-glow  hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-200  border-2 border-BG  ">
+        <div className="row-span-2 rounded-3xl    hover:drop-shadow-glow  hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-200  border-2 border-BG  ">
           <Carousel
             pauseOnHover
             leftControl={
@@ -122,40 +122,27 @@ function About() {
         </div>
         <div className="row-span-2 rounded-3xl hover:drop-shadow-glow  hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-200  border-2 border-BG  flex flex-col ">
           <h2 className="font-bold text-2xl mb-2  dark:text-white text-black">
-            Favourite Jams
+            Main Tool Stack
           </h2>
-          <div className="  overflow-hidden">
-            {" "}
-            <iframe
-              src="https://open.spotify.com/embed/track/6mFkJmJqdDVQ1REhVfGgd1?utm_source=generator&theme=1"
-              width="100%"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
-          </div>
-          <div className="  overflow-hidden">
-            <iframe
-              src="https://open.spotify.com/embed/track/40jxatV29fk82SAziDsPqN?utm_source=generator&theme=1"
-              width="100%"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
-          </div>
-          <div className="  overflow-hidden">
-            <iframe
-              src="https://open.spotify.com/embed/track/2Rd4eJ4KwXQQn2sMSToyUM?utm_source=generator&theme=1"
-              width="100%"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
-          </div>
-          <div className="  overflow-hidden">
-            <iframe
-              src="https://open.spotify.com/embed/track/5nujrmhLynf4yMoMtj8AQF?utm_source=generator&theme=1"
-              width="100%"
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            ></iframe>
+          <div className="flex flex-row  flex-grow flex-wrap justify-center items-center space-x-2">
+            <ToolStackIcons className="icon-[devicon--flutter] xl:xl:text-5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--python] xl:xl:text-5xl text-3xl5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--nextjs] xl:xl:text-5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--javascript] xl:xl:text-5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--react] xl:xl:text-5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--tailwindcss] xl:xl:text-5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--nodejs] xl:xl:text-5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--mongodb] xl:xl:text-5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--figma] xl:xl:text-5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--amazonwebservices-wordmark] xl:xl:text-5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--firebase] xl:xl:text-5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--googlecloud] xl:xl:text-5xl text-3xl " />
+            <ToolStackIcons className="icon-[devicon--heroku] xl:xl:xl:text-5xl text-3xl " />{" "}
+            <ToolStackIcons className="icon-[devicon--flask] xl:xl:text-5xl text-3xl " />{" "}
+            <ToolStackIcons className="icon-[devicon--sqlite] xl:xl:text-5xl text-3xl " />{" "}
+            <ToolStackIcons className="icon-[devicon--redux] xl:xl:text-5xl text-3xl " />{" "}
+            <ToolStackIcons className="icon-[devicon--dynamodb] xl:xl:text-5xl text-3xl " />{" "}
+            <ToolStackIcons className="icon-[devicon--photoshop] xl:xl:text-5xl text-3xl " />
           </div>
         </div>{" "}
         <div className=" min-h-full justify-around xl:row-span-1 lg:col-span-1 xl:col-span-1 rounded-3xl  hover:drop-shadow-glow   hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-200 border-2 border-BG  flex flex-col ">
@@ -195,33 +182,6 @@ function About() {
             <h3 className=" text-sm  dark:text-white/70 font-bold  ">
               First Class Honors - 3.8 GPA
             </h3>
-          </div>
-        </div>
-        <div className="row-span-1 lg:col-span-1 xl:col-span-full rounded-3xl hover:drop-shadow-glow  hover:shadow-xl transition duration-1000  dark:shadow-none p-4 dark:bg-neutral-900  bg-gray-200  border-2 border-BG  flex flex-col ">
-          {" "}
-          <h2 className="font-bold text-2xl   dark:text-white text-black">
-            Main Tool Stack
-          </h2>
-          <div className="flex flex-row  flex-grow flex-wrap justify-center items-center space-x-2">
-            <ToolStackIcons className="icon-[devicon--flutter] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--python] xl:xl:text-5xl text-3xl5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--java] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--javascript] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--react] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--tailwindcss] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--nodejs] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--mongodb] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--figma] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--amazonwebservices-wordmark] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--firebase] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--googlecloud] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--heroku] xl:xl:xl:text-5xl text-3xl " />{" "}
-            <ToolStackIcons className="icon-[devicon--flask] xl:xl:text-5xl text-3xl " />{" "}
-            <ToolStackIcons className="icon-[devicon--sqlite] xl:xl:text-5xl text-3xl " />{" "}
-            <ToolStackIcons className="icon-[devicon--redux] xl:xl:text-5xl text-3xl " />{" "}
-            <ToolStackIcons className="icon-[devicon--dynamodb] xl:xl:text-5xl text-3xl " />{" "}
-            <ToolStackIcons className="icon-[devicon--vitejs] xl:xl:text-5xl text-3xl " />
-            <ToolStackIcons className="icon-[devicon--photoshop] xl:xl:text-5xl text-3xl " />
           </div>
         </div>
       </BentoGrid>
